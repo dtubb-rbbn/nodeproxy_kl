@@ -32,7 +32,7 @@ If the token is valid the user id (sub) from the token is used to index the "aaa
 
 # Running the application
 ```
-node 
+node nodeproxy_kl_google_sign_in.js
 ```
 
 # Invoking this from a web page
