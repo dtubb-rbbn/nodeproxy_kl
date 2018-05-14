@@ -26,18 +26,6 @@ if(configData.local.daemon) {
 }
 
 ///////////////////////////////////////////////////////////////
-// configuration
-//
-// target system
-//
-if(null==remoteRestHost) {
-	console.log("No redirect for REST requests");
-} else {
-	console.log("Redirect for REST requests to "+remoteRestUrl);
-}
-
-
-///////////////////////////////////////////////////////////////
 //
 // launch the rest-proxy server
 //
